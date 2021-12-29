@@ -11,7 +11,7 @@ const loader: Loader = (filePath: string) => {
     return get(result, 'default', result);
   } catch (error) {
     // Replace with logger class OR throw a more specific error
-    throw TypeScriptCompileError.fromError(error);
+    throw TypeScriptCompileError.fromError(error as any);
   }
 };
 
