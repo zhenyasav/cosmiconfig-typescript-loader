@@ -1,7 +1,7 @@
 {
   "name": "@nice/cosmiconfig-typescript-loader",
   "description": "A TypeScript loader for Cosmiconfig (fork of the @endemolshinegroup package)",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
